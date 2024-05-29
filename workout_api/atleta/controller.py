@@ -10,7 +10,7 @@ from workout_api.centro_treinamento.models import CentroTreinamentoModel
 
 from workout_api.contrib.dependencies import DatabaseDependency
 from sqlalchemy.future import select
-from fastapi_pagination import Page, LimitOffsetPage, paginate
+from fastapi_pagination import LimitOffsetPage, paginate
 
 router = APIRouter()
 
